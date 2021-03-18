@@ -9,12 +9,12 @@
 	</head>
 	<body>
 		<nav>
-			<div class="hamburger-logo-div">
+			<div class="hamburger-logo-container">
 				<p class="hamburger"></p>
 				<img class="logo" src="" alt="Youtube Logo" />
 			</div>
 
-			<div class="search-magnifying-glass-mic-div">
+			<div class="search-magnifying-glass-mic-container">
 				<div class="search-bar-div">
 					<input class="search-bar" type="search" name="" id="" />
 				</div>
@@ -26,7 +26,7 @@
 				</div>
 			</div>
 
-			<div class="apps-and-sign-in-div">
+			<div class="apps-and-sign-in-container">
 				<div class="youtube-apps-div"></div>
 				<div class="settings-div"></div>
 				<div class="sign-in-div"></div>
@@ -34,46 +34,62 @@
 		</nav>
 
 		<aside>
-			<div class="sidebar-video-suggestion">
-				<img class="sidebar-video-img" src="" alt="">
-				<h3 class="sidebar-video-title"></h3>
-				<p class="sidebar-video-username"></p>
-				<p class="sidebar-video-views-date"></p>
+			<div class="sidebar__video-div">
+				<img class="sidebar__video-img" src="" alt="">
+				<h3 class="sidebar__video-title"></h3>
+				<p class="sidebar__video-username"></p>
+				<p class="sidebar__video-views-date"></p>
 			</div>
 		</aside>
 
 		<main>
-			<div class="playing-video-div"></div>
+			<div class="playing-video-container"></div>
 
-				<div class="title-div">
-					<div class="vd-ttl-div">
-						<h1 class="vd-ttl-title"></h1>
-						<p class="vd-ttl-hashtags"></p>
-						<p class="vd-ttl-views-date"></p>
+				<div class="title-container">
+					<div class="title__vd-ttl-div">
+						<h1 class="title__vd-ttl-title"></h1>
+						<p class="title__vd-ttl-hashtags"></p>
+						<p class="title__vd-ttl-views-date"></p>
 					</div>
-					<div class="likes-div">
-						<icon class="like-btn"></icon>  <!--  ? need to change element name-->
-						<icon class="dislike-btn"></icon>  <!--  ? need to change element name-->
-						<icon class="share-btn"></icon>  <!--  ? need to change element name-->
-						<icon class="save-btn"></icon>  <!--  ? need to change element name-->
-						<icon class="report-btn"></icon>  <!--  ? need to change element name-->
+					<div class="actions-container">
+						<icon class="actions__like-btn"></icon>  <!--  ? need to change element name-->
+						<icon class="actions__dislike-btn"></icon>  <!--  ? need to change element name-->
+						<icon class="actions__share-btn"></icon>  <!--  ? need to change element name-->
+						<icon class="actions__save-btn"></icon>  <!--  ? need to change element name-->
+						<icon class="actions__report-btn"></icon>  <!--  ? need to change element name-->
 					</div>
 				</div>
 			
-			<div class="account-div">
-				<div class="account-details-div">
-					<img class="account-img" src="" alt="">
-					<h2 class="account-username"></h2>
-					<p class="account-subscribers"></p>
-					<p class="account-description"></p>
-					<p class="account-show-more"></p>
+			<div class="account-container">
+				<div class="account__details-div">
+					<img class="account__avatar" src="" alt="">
+					<h2 class="account__username"></h2>
+					<p class="account__subscribers"></p>
+					<p class="account__description"></p>
+					<p class="account__show-more"></p>
 				</div>
 
-				<div class="subscribe-btn-div"></div>
+				<div class="account__subscribe-btn-div">
+
+				</div>
 			</div>
 
-			<div class=""></div>
-			<div class=""></div>
+			<div class="new-comment-container">
+				<h3 class="new-comment__title"></h3>
+				<p class="new-comment__sort-by"></p>
+				<img class="new-comment__avatar" src="" alt="">
+				<p class="new-comment__add-section"></p>
+			</div>
+
+			<div class="all-comments">
+				<img class="comment__avatar" src="" alt="">
+				<h3 class="comment__username"></h3>
+				<p class="comment__date"></p>
+				<p class="comment__text"></p>
+				<icon class="comment__like-btn"></icon>  <!--  ? need to change element name-->
+				<icon class="comment__dislike-btn"></icon>  <!--  ? need to change element name-->
+				<icon class="comment__reply-btn"></icon>  <!--  ? need to change element name-->
+			</div>
 		</main>
 
 	</body>
