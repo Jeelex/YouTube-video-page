@@ -1,3 +1,14 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
 body {
-    font-family: 'Roboto', sans-serif;
+	font-family: "Roboto", sans-serif;
+}
+
+.main-aside-container {
+	display: flex;
+	flex-direction: row-reverse;
 }
