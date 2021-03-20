@@ -6,9 +6,149 @@
 
 body {
 	font-family: "Roboto", sans-serif;
+	/* padding: 0 1.5em; */
 }
+
+.flex-class-center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	/* margin-bottom: 1em; */
+	padding: .5em 1.5em;
+	background-color: white;
+	opacity: .990;
+	position: fixed;
+	width: 100%;
+}
+
+img {
+	width: 100%;
+}
+
+/* ? 			 hamburger-logo-container 			*/
+/* .hamburger-logo-container {
+	display: flex;
+} */
+
+.hamburger {
+	width: 24px;
+	height: 30px;
+}
+
+.logo {
+	width: 80px;
+	object-fit: contain;
+	margin-left: 1.5em;
+}
+
+/* ? 			search-magnifying-glass-mic-container		 */
+
+.search-bar {
+	height: 30px;
+	width: 35em;
+	max-width: 700px;
+	outline: none;
+	padding: 5px 10px;
+	border: 1px solid #02020238;
+	border-radius: 3px 0 0 3px;
+	font-size: 16px;
+	font-family: "Roboto", sans-serif;
+	opacity: .8;
+}
+
+
+.magnifying-glass-div {
+	height: 30px;
+	padding: 5px 20px;
+	background-color: #F9F9F9;
+	border: 1px solid #02020238;
+	border-radius: 0 3px 3px 0;
+	
+}
+
+.magnifying-glass-icon {
+	width: 20px;
+}
+
+.microphone-icon {
+	margin-left: .5em;
+	width: 23px;
+}
+
+
+
+/* ? 			apps-and-sign-in-container 				*/
+/* .apps-and-sign-in-container{
+	opacity: .8;	
+} */
+
+/* .youtube-apps-div{} */
+
+.youtube-apps-icon {
+    margin-right: 2em;
+}
+
+.settings-div{
+	margin-right: 1.5em;
+	width: 5px;
+}
+
+.settings-icon{
+	opacity: .8;
+}
+
+.sign-in-div{
+	border: 1px solid #0B62D5;
+	border-radius: 3px;
+	padding: 5px 15px;
+}
+
+
+.sign-in-avatar {
+	/* width: 20px; */
+	/* height:20px */
+	margin-right: .3em;
+	font-size: 30px;
+	color: #0B62D5;
+}
+.sign-in-text{
+	color: #0B62D5;
+	font-size: 14px;
+	font-weight: 500;
+	letter-spacing: 1px;
+}
+
+
+
+/* ? 					main-aside-container						*/
 
 .main-aside-container {
 	display: flex;
 	flex-direction: row-reverse;
+	background-color: #F9F9F9;
+	padding: 5em 1.5em 0;
+	gap: 30px;
+}
+
+main {
+	width: 70%;
+}
+
+aside {
+	width: 30%;
+}
+
+.playing-video-container{
+	/* width: 100%; */
+	/* height: 100v; */
+}
+
+iframe {
+	width: 100%;
+	height: 40vw;
 }
