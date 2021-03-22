@@ -95,13 +95,13 @@
 						<p class="title__vd-ttl-views-date">29,114 views • 10 Feb 2021</p>
 					</div>
 					<div class="actions-container">
-						<button class="actions-item actions__like-btn">👍</button>
-						<button class="actions-item actions__dislike-btn">👎</button>
-						<button class="actions-item actions__share-btn">↱SHARE</button>
-						<button class="actions-item actions__save-btn">
+						<div class="actions-item actions__like-btn">👍</div>
+						<div class="actions-item actions__dislike-btn">👎</div>
+						<div class="actions-item actions__share-btn">↱SHARE</div>
+						<div class="actions-item actions__save-btn">
 							<svg class="actions-item actions__save-svg" viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false"><g><path d="M14 10H2v2h12v-2zm0-4H2v2h12V6zm4 8v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zM2 16h8v-2H2v2z"></path></g></svg>
 							<p>SAVE</p>
-						</button>
+						</div>
 						<button class="actions-item actions__report-btn"><i class="fas fa-ellipsis-h"></i></button>
 					</div>
 				</div>
@@ -121,9 +121,13 @@
 
 				<div class="new-comment-container">
 					<h3 class="new-comment__title">134 Comments</h3>
-					<p class="new-comment__sort-by">SORT BY</p>
-					<img class="new-comment__avatar" src="" alt="" />
-					<p class="new-comment__add-section">Add a public comment...</p>
+						<svg class="new-comment__svg" style="display: inline;" viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false"><g><path d="M3 18h6v-2H3v2zM3 6v2h18V6H3zm0 7h12v-2H3v2z"></path><path d="M0 0h24v24H0z" fill="none"></path></g></svg>
+						<p class="new-comment__sort-by">SORT BY</p>
+					<br>
+					<div class="new-comment-avatar-placeholder-div">
+						<img class="new-comment__avatar" src="images/avatar.jpeg" alt="" />
+						<p class="new-comment__placeholder">Add a public comment...</p>
+					</div>
 				</div>
 
 				<div class="all-comments">

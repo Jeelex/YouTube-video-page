@@ -210,10 +210,16 @@ iframe {
 	font-weight: 500;
 }
 
+.actions__save-btn{
+	display: inline;
+}
+
 .actions__save-svg{
 	display: inline;
-	/* color: #606060; */
 	opacity: .6;
+	width: 25px;
+    vertical-align: text-bottom;
+	margin-right: 5px;
 }
 
 
@@ -240,7 +246,7 @@ iframe {
 
 .account__avatar{
 	grid-area: img;
-	width: 50px;
+	width: 48px;
 	object-fit: none;
 	border-radius: 50px;
 	margin-right: 10px;
@@ -280,4 +286,61 @@ iframe {
 	font-size: 13px;
 	color: #606060;
 	/* font-weight: 500; */
+}
+
+
+
+/* ?		new comment container 			 */
+
+.new-comment-container {
+	margin-top: 20px;
+}
+
+.new-comment__title,
+.new-comment__sort-by,
+.new-comment__avatar,
+.new-comment__placeholder{
+	display: inline-block;
+}
+
+.new-comment__title{
+	font-size: 16px;
+    font-weight: 400;
+	margin-right: 20px;
+}
+
+.new-comment__sort-by{
+	color: #606060;
+	font-size: 14px;
+	vertical-align: text-top;
+}
+
+.new-comment-avatar-placeholder-div {
+	display: flex;
+	align-items: center;
+	margin-top: 20px;
+
+}
+
+.new-comment__avatar{
+	width: 40px;
+	border-radius: 50px;
+	margin-right: 10px;
+}
+
+.new-comment__placeholder{
+	width: 100%;
+	border-bottom: 1px solid #60606045;
+    padding-bottom: 8px;
+    color: #606060;
+    font-size: 14px;
+
+}
+
+.new-comment__svg{
+	display: inline;
+	opacity: .6;
+	width: 25px;
+    vertical-align: text-bottom;
+	margin-right: 5px;
 }
