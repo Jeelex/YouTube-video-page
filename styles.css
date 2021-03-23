@@ -49,6 +49,10 @@ button:hover {
 	cursor: pointer;
 }
 
+.cursor-pointer{
+	cursor: pointer;
+}
+
 
 /* ? 			 hamburger-logo-container 			*/
 /* .hamburger-logo-container {
@@ -222,17 +226,9 @@ iframe {
 	font-weight: 500;
 }
 
-.actions__save-btn{
-	display: inline;
-}
-
-.actions__save-svg{
-	display: inline;
-	opacity: .6;
-	width: 25px;
-    vertical-align: text-bottom;
-	margin-right: 5px;
-}
+/* .actions_options-btn {
+	vertical-align: top;
+} */
 
 
 
@@ -325,7 +321,6 @@ iframe {
 .new-comment__sort-by{
 	color: #606060;
 	font-size: 14px;
-	vertical-align: text-top;
 }
 
 .new-comment-avatar-placeholder-div {
@@ -351,10 +346,10 @@ iframe {
 }
 
 .new-comment__svg{
-	display: inline;
+	/* display: inline; */
 	opacity: .6;
 	width: 25px;
-    vertical-align: text-bottom;
+    vertical-align: sub;
 	margin-right: 5px;
 }
 
@@ -402,7 +397,7 @@ iframe {
 /* ? 			comments			 */
 
 .comment-container {
-	margin-top: 20px;
+	margin-top: 30px;
 	/* flex-direction: column; */
 }
 
@@ -449,7 +444,7 @@ iframe {
 .icons {
 	width: 20px;
 	display: inline;
-	vertical-align: text-bottom;
+	vertical-align: middle;
 	margin-right: 10px;
 }
 
