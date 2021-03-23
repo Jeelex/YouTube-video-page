@@ -239,7 +239,7 @@
 						<div class="account-username-subs-div">
 							<div>
 								<h2 class="account__username">Kevin Powell</h2>
-								<svg class="verified-icon" viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false" class="style-scope yt-icon"><g class="style-scope yt-icon"><path fill-rule="evenodd" clip-rule="evenodd" d="M12,2C6.48,2,2,6.48,2,12s4.48,10,10,10s10-4.48,10-10 S17.52,2,12,2z M9.92,17.93l-4.95-4.95l2.05-2.05l2.9,2.9l7.35-7.35l2.05,2.05L9.92,17.93z" class="style-scope yt-icon"></path></g></svg>
+								<svg class="verified-icon" viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false"><g><path fill-rule="evenodd" clip-rule="evenodd" d="M12,2C6.48,2,2,6.48,2,12s4.48,10,10,10s10-4.48,10-10 S17.52,2,12,2z M9.92,17.93l-4.95-4.95l2.05-2.05l2.9,2.9l7.35-7.35l2.05,2.05L9.92,17.93z"></path></g></svg>
 							</div>
 							<p class="account__subscribers">224K subscribers</p>
 						</div>
@@ -255,62 +255,201 @@
 						<p class="new-comment__sort-by">SORT BY</p>
 					<br>
 					<div class="new-comment-avatar-placeholder-div">
-						<img class="new-comment__avatar" src="images/avatar.jpeg" alt="" />
+						<img class="new-comment__avatar" src="images/icons/avatar.jpeg" alt="" />
 						<p class="new-comment__placeholder">Add a public comment...</p>
 					</div>
 				</div>
 
-				<div class="all-comments">
-					<img class="comment__avatar" src="" alt="" />
-					<h3 class="comment__username">Web Code</h3>
-					<p class="comment__date">1 month ago</p>
-					<p class="comment__text">If only I found this channel earlier. This is some really useful stuff!</p>
-					<icon class="comment__like-btn"></icon>
-					<!--  ? need to change element name-->
-					<icon class="comment__dislike-btn"></icon>
-					<!--  ? need to change element name-->
-					<icon class="comment__reply-btn"></icon>
-					<!--  ? need to change element name-->
+				<div class="comment-container">
+					<div class="comment__details-div">
+						<img class="comment__avatar" src="images/thumbnails/account-thumbnail(1).png" alt="" />
+						<div class="comment-username-subs-div">
+							<div>
+								<h3 class="account__username">Web Code <span class="comment-date">4 Months ago</span></h3>
+								<p class="comment__text">If only I found this channel earlier. This is some really useful stuff!</p>
+								<button class="actions-item actions__like-btn" aria-labelledby="Like" title="Like">
+									<img class="icons" src="images/icons/like.svg" alt="Like button icon">12</button>
+								<button class="actions-item actions__dislike-btn" aria-labelledby="Dislike" title="Dislike">
+									<img class="icons dislike-icon" src="images/icons/dislike.svg" alt="Dislike button icon">
+								</button>
+								<button class="actions-item actions__reply-btn" aria-labelledby="Reply" title="Reply">REPLY</button>
+								<p class="comment__replies">View 2 replies</p>
+							</div>
+						</div>
+					</div>
 				</div>
 
-				<div class="all-comments">
-					<img class="comment__avatar" src="" alt="" />
-					<h3 class="comment__username">Web Code</h3>
-					<p class="comment__date">1 month ago</p>
-					<p class="comment__text">If only I found this channel earlier. This is some really useful stuff!</p>
-					<icon class="comment__like-btn"></icon>
-					<!--  ? need to change element name-->
-					<icon class="comment__dislike-btn"></icon>
-					<!--  ? need to change element name-->
-					<icon class="comment__reply-btn"></icon>
-					<!--  ? need to change element name-->
+				<div class="comment-container">
+					<div class="comment__details-div">
+						<img class="comment__avatar" src="images/thumbnails/account-thumbnail(2).png" alt="" />
+						<div class="comment-username-subs-div">
+							<div>
+								<h3 class="account__username">Jeremy Horne <span class="comment-date">1 Month ago</span></h3>
+								<p class="comment__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, unde?</p>
+								<button class="actions-item actions__like-btn" aria-labelledby="Like" title="Like">
+									<img class="icons" src="images/icons/like.svg" alt="Like button icon">23</button>
+								<button class="actions-item actions__dislike-btn" aria-labelledby="Dislike" title="Dislike">
+									<img class="icons dislike-icon" src="images/icons/dislike.svg" alt="Dislike button icon">
+								</button>
+								<button class="actions-item actions__reply-btn" aria-labelledby="Reply" title="Reply">REPLY</button>
+								<p class="comment__replies">View 25 replies</p>
+							</div>
+						</div>
+					</div>
 				</div>
 
-				<div class="all-comments">
-					<img class="comment__avatar" src="" alt="" />
-					<h3 class="comment__username">Web Code</h3>
-					<p class="comment__date">1 month ago</p>
-					<p class="comment__text">If only I found this channel earlier. This is some really useful stuff!</p>
-					<icon class="comment__like-btn"></icon>
-					<!--  ? need to change element name-->
-					<icon class="comment__dislike-btn"></icon>
-					<!--  ? need to change element name-->
-					<icon class="comment__reply-btn"></icon>
-					<!--  ? need to change element name-->
+				<div class="comment-container">
+					<div class="comment__details-div">
+						<img class="comment__avatar" src="images/thumbnails/account-thumbnail(3).png" alt="" />
+						<div class="comment-username-subs-div">
+							<div>
+								<h3 class="account__username">Tarik Amaterasu <span class="comment-date">10 Months ago</span></h3>
+								<p class="comment__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio alias voluptatum, laboriosam saepe tenetur error.</p>
+								<button class="actions-item actions__like-btn" aria-labelledby="Like" title="Like">
+									<img class="icons" src="images/icons/like.svg" alt="Like button icon">4</button>
+								<button class="actions-item actions__dislike-btn" aria-labelledby="Dislike" title="Dislike">
+									<img class="icons dislike-icon" src="images/icons/dislike.svg" alt="Dislike button icon">
+								</button>
+								<button class="actions-item actions__reply-btn" aria-labelledby="Reply" title="Reply">REPLY</button>
+								<p class="comment__replies">View 3 replies</p>
+							</div>
+						</div>
+					</div>
 				</div>
 
-				<div class="all-comments">
-					<img class="comment__avatar" src="" alt="" />
-					<h3 class="comment__username">Web Code</h3>
-					<p class="comment__date">1 month ago</p>
-					<p class="comment__text">If only I found this channel earlier. This is some really useful stuff!</p>
-					<icon class="comment__like-btn"></icon>
-					<!--  ? need to change element name-->
-					<icon class="comment__dislike-btn"></icon>
-					<!--  ? need to change element name-->
-					<icon class="comment__reply-btn"></icon>
-					<!--  ? need to change element name-->
+				<div class="comment-container">
+					<div class="comment__details-div">
+						<img class="comment__avatar" src="images/thumbnails/account-thumbnail(4).png" alt="" />
+						<div class="comment-username-subs-div">
+							<div>
+								<h3 class="account__username">zero894 <span class="comment-date">3 Months ago</span></h3>
+								<p class="comment__text">Doloremque dolorem adipisci rem, voluptate officiis aperiam!</p>
+								<button class="actions-item actions__like-btn" aria-labelledby="Like" title="Like">
+									<img class="icons" src="images/icons/like.svg" alt="Like button icon">4</button>
+								<button class="actions-item actions__dislike-btn" aria-labelledby="Dislike" title="Dislike">
+									<img class="icons dislike-icon" src="images/icons/dislike.svg" alt="Dislike button icon">
+								</button>
+								<button class="actions-item actions__reply-btn" aria-labelledby="Reply" title="Reply">REPLY</button>
+								<p class="comment__replies">View 34 replies</p>
+							</div>
+						</div>
+					</div>
 				</div>
+
+				<div class="comment-container">
+					<div class="comment__details-div">
+						<img class="comment__avatar" src="images/thumbnails/account-thumbnail(5).png" alt="" />
+						<div class="comment-username-subs-div">
+							<div>
+								<h3 class="account__username">Jonathan Ross <span class="comment-date">8 Months ago</span></h3>
+								<p class="comment__text">Nulla, nostrum voluptas ullam sapiente praesentium perferendis recusandae fuga excepturi</p>
+								<button class="actions-item actions__like-btn" aria-labelledby="Like" title="Like">
+									<img class="icons" src="images/icons/like.svg" alt="Like button icon">8</button>
+								<button class="actions-item actions__dislike-btn" aria-labelledby="Dislike" title="Dislike">
+									<img class="icons dislike-icon" src="images/icons/dislike.svg" alt="Dislike button icon">
+								</button>
+								<button class="actions-item actions__reply-btn" aria-labelledby="Reply" title="Reply">REPLY</button>
+								<p class="comment__replies">View 8 replies</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="comment-container">
+					<div class="comment__details-div">
+						<img class="comment__avatar" src="images/thumbnails/account-thumbnail(6).png" alt="" />
+						<div class="comment-username-subs-div">
+							<div>
+								<h3 class="account__username">Ringer Dot <span class="comment-date">14 Months ago</span></h3>
+								<p class="comment__text">perferendis recusandae fuga excepturi</p>
+								<button class="actions-item actions__like-btn" aria-labelledby="Like" title="Like">
+									<img class="icons" src="images/icons/like.svg" alt="Like button icon">7</button>
+								<button class="actions-item actions__dislike-btn" aria-labelledby="Dislike" title="Dislike">
+									<img class="icons dislike-icon" src="images/icons/dislike.svg" alt="Dislike button icon">
+								</button>
+								<button class="actions-item actions__reply-btn" aria-labelledby="Reply" title="Reply">REPLY</button>
+								<p class="comment__replies">View 1 reply</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="comment-container">
+					<div class="comment__details-div">
+						<img class="comment__avatar" src="images/thumbnails/account-thumbnail(7).png" alt="" />
+						<div class="comment-username-subs-div">
+							<div>
+								<h3 class="account__username">Titus A. <span class="comment-date">2 Months ago</span></h3>
+								<p class="comment__text">Lorem consectetur, adipisicing nostrum voluptas ullam sapiente praesentium perferendis excepturi</p>
+								<button class="actions-item actions__like-btn" aria-labelledby="Like" title="Like">
+									<img class="icons" src="images/icons/like.svg" alt="Like button icon">100</button>
+								<button class="actions-item actions__dislike-btn" aria-labelledby="Dislike" title="Dislike">
+									<img class="icons dislike-icon" src="images/icons/dislike.svg" alt="Dislike button icon">
+								</button>
+								<button class="actions-item actions__reply-btn" aria-labelledby="Reply" title="Reply">REPLY</button>
+								<p class="comment__replies">View 150 replies</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="comment-container">
+					<div class="comment__details-div">
+						<img class="comment__avatar" src="images/thumbnails/account-thumbnail(8).png" alt="" />
+						<div class="comment-username-subs-div">
+							<div>
+								<h3 class="account__username">Matias Johus <span class="comment-date">14 Months ago</span></h3>
+								<p class="comment__text">Lorem ipsum dolor fuga excepturi</p>
+								<button class="actions-item actions__like-btn" aria-labelledby="Like" title="Like">
+									<img class="icons" src="images/icons/like.svg" alt="Like button icon">12</button>
+								<button class="actions-item actions__dislike-btn" aria-labelledby="Dislike" title="Dislike">
+									<img class="icons dislike-icon" src="images/icons/dislike.svg" alt="Dislike button icon">
+								</button>
+								<button class="actions-item actions__reply-btn" aria-labelledby="Reply" title="Reply">REPLY</button>
+								<p class="comment__replies">View 15 replies</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="comment-container">
+					<div class="comment__details-div">
+						<img class="comment__avatar" src="images/thumbnails/account-thumbnail(9).png" alt="" />
+						<div class="comment-username-subs-div">
+							<div>
+								<h3 class="account__username">Backend Coder <span class="comment-date">5 Months ago</span></h3>
+								<p class="comment__text">Lorem ipsum dolor recusandae fuga excepturi</p>
+								<button class="actions-item actions__like-btn" aria-labelledby="Like" title="Like">
+									<img class="icons" src="images/icons/like.svg" alt="Like button icon">22</button>
+								<button class="actions-item actions__dislike-btn" aria-labelledby="Dislike" title="Dislike">
+									<img class="icons dislike-icon" src="images/icons/dislike.svg" alt="Dislike button icon">
+								</button>
+								<button class="actions-item actions__reply-btn" aria-labelledby="Reply" title="Reply">REPLY</button>
+								<p class="comment__replies">View 18 replies</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="comment-container">
+					<div class="comment__details-div">
+						<img class="comment__avatar" src="images/thumbnails/account-thumbnail(10).png" alt="" />
+						<div class="comment-username-subs-div">
+							<div>
+								<h3 class="account__username">figourus <span class="comment-date">14 Months ago</span></h3>
+								<p class="comment__text">Lorem ipsum fuga excepturi</p>
+								<button class="actions-item actions__like-btn" aria-labelledby="Like" title="Like">
+									<img class="icons" src="images/icons/like.svg" alt="Like button icon">34</button>
+								<button class="actions-item actions__dislike-btn" aria-labelledby="Dislike" title="Dislike">
+									<img class="icons dislike-icon" src="images/icons/dislike.svg" alt="Dislike button icon">
+								</button>
+								<button class="actions-item actions__reply-btn" aria-labelledby="Reply" title="Reply">REPLY</button>
+								<p class="comment__replies">View 14 replies</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
 			</main>
 		</div>
 		<script src="index.js"></script>

@@ -24,6 +24,7 @@ nav {
 	opacity: .98;
 	position: fixed;
 	width: 100%;
+	z-index: 100;
 }
 
 img {
@@ -42,6 +43,11 @@ button {
 	background-color: unset;
 	font-family: "Roboto", sans-serif;
 }
+
+button:hover {
+	cursor: pointer;
+}
+
 
 /* ? 			 hamburger-logo-container 			*/
 /* .hamburger-logo-container {
@@ -354,21 +360,12 @@ iframe {
 /* ?					aside			*/
 
 .sidebar__video-div{
-    /* display: grid;
-    column-gap: 10px;
-    row-gap: 5px;
-    grid-template-columns: 200px 1fr;
-	grid-template-areas: 
-						"img title"
-						"img username"
-						"img views-date"; */
-						display: flex;
-						margin-bottom: 5px;
+	display: flex;
+	margin-bottom: 5px;
 }
 
 .sidebar__video-img {
 	width: 168px;
-	grid-area: img;
 	margin-right: 10px;
 }
 
@@ -377,18 +374,15 @@ iframe {
 }
 
 .sidebar__video-title {
-	grid-area: title;
 	font-size: 14px;
 	margin-bottom: 3px;
 }
 .sidebar__video-username {
-	grid-area: username;
 	font-size: 13px;
 	color:#606060;
 	display: inline;
 }
 .sidebar__video-views-date {
-	grid-area: views-date;
 	font-size: 13px;
 	color:#606060;
 }
@@ -402,8 +396,65 @@ iframe {
 	vertical-align: middle;
 }
 
-.sidebar__username:las
 
+
+/* ? 			comments			 */
+
+.comment-container {
+	margin-top: 20px;
+	/* flex-direction: column; */
+}
+
+.comment__details-div {
+	display: flex;
+	align-items: start;
+	justify-content: flex-start;
+}
+
+.comment__avatar {
+	width: 40px;
+	object-fit: none;
+	border-radius: 50px;
+	margin-right: 10px;
+}
+
+.comment-username-subs-div{
+	/* grid-area: usernameANDsubs; */
+	/* margin-bottom: 20px; */
+}
+
+.comment-date {
+	color: #606060;
+	font-weight: 400;
+	font-size: 13px;
+}
+
+.comment__text{
+	margin-top: 8px;
+	font-size: 14px;
+	margin-bottom: 15px;
+}
+
+.comment__replies {
+	font-size: 14px;
+	color:#0B62D5;
+	margin-top: 15px;
+}
+
+.actions__reply-btn {
+	font-weight: 400;
+}
+
+.icons {
+	width: 20px;
+	display: inline;
+	vertical-align: text-bottom;
+	margin-right: 10px;
+}
+
+.dislike-icon {
+	margin-left: 5px;
+}
 
 
 /* ?						media queries						 */
