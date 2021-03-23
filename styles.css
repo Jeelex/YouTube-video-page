@@ -123,7 +123,7 @@ button:hover {
 .sign-in-div {
 	border: 1px solid #0b62d5;
 	border-radius: 3px;
-	padding: 5px 15px;
+	padding: 5px 12px;
 }
 
 .sign-in-avatar {
@@ -137,7 +137,6 @@ button:hover {
 	color: #0b62d5;
 	font-size: 14px;
 	font-weight: 500;
-	letter-spacing: 1px;
 }
 
 /* ? 					main-aside-container						*/
@@ -160,15 +159,10 @@ aside {
 
 /* ? 					video container 							 */
 
-.playing-video-container {
-	/* width: 100%; */
-	/* height: 100v; */
-}
-
 iframe {
 	width: 100%;
 	max-width: 1280px;
-	height: 38vw;
+	height: 37vw;
 	/* max-height: 720px; */
 }
 
@@ -387,11 +381,6 @@ iframe {
 	object-fit: none;
 	border-radius: 50px;
 	margin-right: 10px;
-}
-
-.comment-username-subs-div {
-	/* grid-area: usernameANDsubs; */
-	/* margin-bottom: 20px; */
 }
 
 .comment-date {
