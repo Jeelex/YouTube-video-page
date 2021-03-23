@@ -435,6 +435,10 @@ iframe {
 	main {
 		width: 100%;
 	}
+
+	iframe {
+		height: 53vw;
+	}
 }
 
 @media (max-width: 780px) {
