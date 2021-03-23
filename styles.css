@@ -33,7 +33,7 @@ img {
 
 a {
 	text-decoration: none;
-	color: #0660d4;
+	color: #0b62d5;
 }
 
 button {
@@ -165,7 +165,7 @@ iframe {
 }
 
 .title__vd-ttl-hashtags {
-	color: #065fd4;
+	color: #0b62d5;
 	font-size: 13px;
 	margin-bottom: 3px;
 }
@@ -257,6 +257,11 @@ iframe {
 	color: #606060;
 	/* font-weight: 500; */
 }
+
+.hyperlink {
+	color:#0b62d5;
+}
+
 
 /* ?		new comment container 			 */
 
