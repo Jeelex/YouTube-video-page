@@ -53,9 +53,6 @@ button:hover {
 }
 
 /* ? 			 hamburger-logo-container 			*/
-/* .hamburger-logo-container {
-	display: flex;
-} */
 
 .hamburger {
 	width: 24px;
@@ -101,12 +98,6 @@ button:hover {
 }
 
 /* ? 			apps-and-sign-in-container 				*/
-/* .apps-and-sign-in-container{
-	opacity: .8;	
-} */
-
-/* .youtube-apps-div{} */
-
 .youtube-apps-icon {
 	margin-right: 2em;
 }
@@ -127,8 +118,6 @@ button:hover {
 }
 
 .sign-in-avatar {
-	/* width: 20px; */
-	/* height:20px */
 	margin-right: 0.3em;
 	font-size: 30px;
 	color: #0b62d5;
@@ -144,7 +133,6 @@ button:hover {
 .main-aside-container {
 	display: flex;
 	flex-direction: row-reverse;
-	/* background-color: #F9F9F9; */
 	padding: 5em 1.5em 0;
 	gap: 25px;
 }
@@ -163,7 +151,6 @@ iframe {
 	width: 100%;
 	max-width: 1280px;
 	height: 37vw;
-	/* max-height: 720px; */
 }
 
 /* ? 			title container			 */
@@ -206,9 +193,6 @@ iframe {
 	font-weight: 500;
 }
 
-/* .actions_options-btn {
-	vertical-align: top;
-} */
 
 /* ?				account container		 	*/
 
