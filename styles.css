@@ -100,6 +100,7 @@ button:hover {
 /* ? 			apps-and-sign-in-container 				*/
 .youtube-apps-icon {
 	margin-right: 2em;
+	width: 25px;
 }
 
 .settings-div {
@@ -132,7 +133,7 @@ button:hover {
 
 .main-aside-container {
 	display: flex;
-	flex-direction: row-reverse;
+	flex-direction: row;
 	padding: 5em 1.5em 0;
 	gap: 25px;
 }
@@ -192,7 +193,6 @@ iframe {
 	color: #606060;
 	font-weight: 500;
 }
-
 
 /* ?				account container		 	*/
 
@@ -406,5 +406,96 @@ iframe {
 	.main-aside-container {
 		max-width: 1750px;
 		margin: 0 auto;
+	}
+}
+
+@media (max-width: 1060px) {
+	.search-magnifying-glass-mic-container {
+		width: 60%;
+	}
+}
+
+@media (max-width: 990px) {
+	.search-magnifying-glass-mic-container {
+		width: 55%;
+	}
+
+	.main-aside-container {
+		display: block;
+		/* margin: 0 auto; */
+	}
+
+	aside {
+		width: 100%;
+		margin-top: 30px;
+		border-top: 1px solid #60606045;
+		padding-top: 30px;
+	}
+
+	main {
+		width: 100%;
+	}
+}
+
+@media (max-width: 780px) {
+	.search-magnifying-glass-mic-container {
+		width: 20%;
+	}
+
+	.logo {
+		margin-left: 0.5em;
+	}
+}
+
+@media (max-width: 780px) {
+	.search-bar {
+		display: none;
+	}
+
+	.menu-btn {
+		display: none;
+	}
+
+	.microphone-div {
+		display: none;
+	}
+
+	.youtube-apps-btn {
+		display: none;
+	}
+
+	.magnifying-glass-div {
+		background-color: unset;
+		border: none;
+		position: absolute;
+		right: 160px;
+	}
+
+	.magnifying-glass-icon {
+		width: 25px;
+	}
+
+	.main-aside-container {
+		padding: 5em 0.5em 0;
+	}
+
+	.title-container {
+		display: block;
+	}
+
+	.actions-container {
+		margin-top: 30px;
+	}
+
+	iframe {
+		height: 55vw;
+	}
+
+	nav {
+		padding: 0.5em;
+	}
+
+	.sign-in-div {
+		padding: 5px 5px;
 	}
 }
