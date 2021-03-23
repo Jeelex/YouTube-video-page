@@ -363,6 +363,7 @@ iframe {
 						"img username"
 						"img views-date"; */
 						display: flex;
+						margin-bottom: 5px;
 }
 
 .sidebar__video-img {
@@ -401,6 +402,7 @@ iframe {
 	vertical-align: middle;
 }
 
+.sidebar__username:las
 
 
 
